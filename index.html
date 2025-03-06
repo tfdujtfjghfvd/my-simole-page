@@ -1,13 +1,20 @@
 <!DOCTYPE html>
-html lang="ar">
+<html lang="ar">
 <head>
-Mmeta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>صفحتي الاولي</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بياناتي الشخصية</title>
 </head>
 <body>
-<h1>مرحبا بك في صفحتي البسيطه!
-<h1>
-<p>هذه صفحةHTMLبسيطه مرفوعه علي GitHub Pages.</p>
+    <h2>بياناتي الشخصية</h2>
+    <p><strong>الاسم:</strong> <span id="name"></span></p>
+    <p><strong>العمر:</strong> <span id="age"></span></p>
+    <p><strong>الكود:</strong> <span id="code"></span></p>
+
+    <script>
+        document.getElementById("name").innerText = "رنا";
+        document.getElementById("age").innerText = "20 سنة";
+        document.getElementById("code").innerText = "20230312";
+    </script>
 </body>
 </html>
